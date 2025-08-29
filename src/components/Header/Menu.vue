@@ -5,7 +5,8 @@ import { content } from '../data/content';
 import { faFacebook, faYoutube, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import logo from "@/assets/vite.svg"
+// import logo from "@/assets/vite.svg"
+
 const props = defineProps<{ lang: 'en' | 'vi' }>();
 const menuItems = computed(() => props.lang === 'en' ? content.en.menu : content.vi.menu);
 </script>

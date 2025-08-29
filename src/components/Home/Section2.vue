@@ -70,9 +70,9 @@ const goToSlide = (index: number) => {
 
       <div class="lg:w-2/3 space-y-6">
         <div class="space-y-4">
-          <h6 class="text-blue-600 font-sans font-semibold text-sm uppercase tracking-wide">
+          <h2 class="font-sans font-semibold text-xl text-blue-600">
             {{ data.title }}
-          </h6>
+          </h2>
           <h1 class="font-sans font-bold text-4xl lg:text-5xl text-gray-900 leading-tight">
             {{ data.p1 }}
           </h1>
@@ -82,22 +82,22 @@ const goToSlide = (index: number) => {
         </div>
 
         <div class="space-y-4">
-          <h2 class="font-sans font-semibold text-xl text-gray-900">
+          <h2 class="font-sans font-semibold text-xl text-blue-600">
             {{ data.p3 }}
           </h2>
-          <p class="text-gray-700 text-base">
+          <h2 class="text-gray-700 font-sans font-semibold text-xl">
             {{ data.video }}
-          </p>
+          </h2>
           
-          <div class="relative aspect-video bg-gray-100 rounded-lg overflow-hidden">
+          <div class="relative w-[400px] h-[225px] bg-gray-100 rounded-xl overflow-hidden shadow-lg transition-all duration-200 hover:-translate-y-2 mx-auto">
             <iframe
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src="https://www.youtube.com/watch?v=ugLZaBqz73k&t=1s"
               :title="data.titlevideo"
-              class="absolute inset-0 w-full h-full"
+              class="absolute inset-0 w-full h-full rounded-xl"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            />
+             />
           </div>
           
           <p class="text-center text-sm text-gray-600 mt-2">
