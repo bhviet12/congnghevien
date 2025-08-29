@@ -79,30 +79,30 @@ const goToSlide = (index: number) => {
           <p class="text-gray-700 leading-relaxed text-base">
             {{ data.p2 }}
           </p>
-        </div>
-
-        <div class="space-y-4">
-          <h2 class="font-sans font-semibold text-xl text-blue-600">
+           <h2 class="font-sans font-semibold text-xl text-blue-600">
             {{ data.p3 }}
           </h2>
           <h2 class="text-gray-700 font-sans font-semibold text-xl">
             {{ data.video }}
           </h2>
-          
-          <div class="relative w-[400px] h-[225px] bg-gray-100 rounded-xl overflow-hidden shadow-lg transition-all duration-200 hover:-translate-y-2 mx-auto">
-            <iframe
-              src="https://www.youtube.com/watch?v=ugLZaBqz73k&t=1s"
-              :title="data.titlevideo"
-              class="absolute inset-0 w-full h-full rounded-xl"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-             />
+        </div>
+
+        <div class="space-y-4">
+          <div class="bg-white rounded-2xl shadow-xl p-4 mx-auto w-[660px] transition-all duration-200 hover:-translate-y-2">
+            <div class="relative w-full h-[400px] rounded-xl overflow-hidden">
+              <iframe
+                src="https://www.youtube.com/watch?v=ugLZaBqz73k&t=1s"
+                :title="data.titlevideo"
+                class="absolute inset-0 w-full h-full rounded-xl"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              />
+            </div>
+            <p class="text-center text-base font-semibold text-gray-800 mt-4 w-[636px] mx-auto">
+              {{ data.titlevideo }}
+            </p>
           </div>
-          
-          <p class="text-center text-sm text-gray-600 mt-2">
-            {{ data.titlevideo }}
-          </p>
         </div>
 
         <div class="pt-4">
