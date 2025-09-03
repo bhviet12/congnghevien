@@ -37,6 +37,36 @@ export const content = {
       titlevideo:"45th Anniversary of Technology Institute",
       btn: "Read more",
     },
+    services: {
+      title: "Areas of Operation",
+      h1: "Our Expertise and Services",
+      p:"The Institute also implements many research projects in the field of new materials, heat treatment, mechanical engineering for mold making with the goal of practical application",
+      btn:"View Details",
+      box1:{
+        title:"Casting Technology and New Materials",
+        p:"Casting Technology and New Materials - Nghiên cứu, phát triển các nhóm hợp kim đặc biệt dùng trong quốc phòng, y sinh. Mô phỏng thiết kế đúc bằng phần mềm MAGMASoft.",
+      },
+      box2:{
+        title:"Heat Treatment Technology",
+        p:"Heat Treatment Technology - Nghiên cứu, dịch vụ nhiệt luyện chân không, nhiệt luyện truyền thống và hóa nhiệt luyện (thấm C, C-N, N) các loại khuôn và các sản phẩm cơ khí.",
+      },
+      box3:{
+        title:"Mechanical Engineering for Mold Making",
+        p:"Mechanical Engineering for Mold Making - Thiết kế, chế tạo hoàn chỉnh các loại khuôn kim loại dùng trong các lĩnh vực rèn, dập, ép và đúc áp lực.",
+      },
+      box4:{
+        title:"Material Testing",
+        p:"Material Testing - Thử nghiệm, kiểm định trong lĩnh vực hóa, cơ, không phá huỷ các loại vật liệu, kết cấu hàn và chi tiết máy.",
+      },
+      box5:{
+        title:"Equipment/Technology Transfer",
+        p:"Equipment/Technology Transfer - Cung cấp và chuyển giao công nghệ các thiết bị về xử lý nhiệt, Các dây chuyền/ hệ thống kết cấu cơ khí.",
+      },
+      box6:{
+        title:"Training and Technology Consulting",
+        p:"Training and Technology Consulting - Đào tạo, tư vấn trong lĩnh vực như Công nghệ Đúc; Xử lý nhiệt; Kiểm định vật liệu; và các lĩnh vực khác.",
+      }
+    }
 },
   vi: {
     headertop: {
@@ -75,6 +105,36 @@ export const content = {
       titlevideo:"Kỷ niệm 45 năm Viện Công nghệ",
       btn: "Xem thêm",
     },
+    services: {
+      title: "Lĩnh vực hoạt động",
+      h1: "Chuyên môn và dịch vụ của chúng tôi",
+      p:"Viện cũng triển khai nhiều nghiên cứu về lĩnh vực vật liệu mới, nhiệt luyện, cơ khí chế tạo khuôn mẫu với mục tiêu ứng dụng vào thực tế.",
+      btn:"Xem chi tiết",
+      box1:{
+        title:"Công nghệ đúc và vật liệu mới",
+        p:"Công nghệ đúc và vật liệu mới - Nghiên cứu, phát triển các nhóm hợp kim đặc biệt dùng trong quốc phòng, y sinh. Mô phỏng thiết kế đúc bằng phần mềm MAGMASoft.",
+      },
+      box2:{
+        title:"Công nghệ xử lý nhiệt",
+        p:"Công nghệ xử lý nhiệt - Nghiên cứu, dịch vụ nhiệt luyện chân không, nhiệt luyện truyền thống và hóa nhiệt luyện (thấm C, C-N, N) các loại khuôn và các sản phẩm cơ khí.",
+      },
+      box3:{
+        title:"Cơ khí chế tạo khuôn mẫu",
+        p:"Cơ khí chế tạo khuôn mẫu - Thiết kế, chế tạo hoàn chỉnh các loại khuôn kim loại dùng trong các lĩnh vực rèn, dập, ép và đúc áp lực.",
+      },
+      box4:{
+        title:"Kiểm định vật liệu",
+        p:"Kiểm định vật liệu - Thử nghiệm, kiểm định trong lĩnh vực hóa, cơ, không phá huỷ các loại vật liệu, kết cấu hàn và chi tiết máy.",
+      },
+      box5:{
+        title:"Chuyển giao thiết bị/công nghệ",
+        p:"Chuyển giao thiết bị/công nghệ - Cung cấp và chuyển giao công nghệ các thiết bị về xử lý nhiệt, Các dây chuyền/ hệ thống kết cấu cơ khí.",
+      },
+      box6:{
+        title:"Đào tạo, tư vấn công nghệ",
+        p:"Đào tạo, tư vấn công nghệ - Đào tạo, tư vấn trong lĩnh vực như Công nghệ Đúc; Xử lý nhiệt; Kiểm định vật liệu; và các lĩnh vực khác.",
+      }
+    }
 },
 
   }
